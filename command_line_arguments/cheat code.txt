@@ -1,0 +1,10 @@
+compile --> gcc <name of the source code.c>
+run     --> source code
+executable  file will be in a.exe
+
+compile --> gcc -o <name of the executable file><name of the source code.c>
+run     --> "program_name"
+executable file will be in the form 
+
+
+

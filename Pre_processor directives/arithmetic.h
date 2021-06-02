@@ -1,4 +1,4 @@
-void add(int x, int y) { printf("Added value : %d\n",x+y); }
+void add(int x, int y) { printf("Sum value : %d\n",x+y); }
 
 void sub(int x,int y)  { printf("Difference value : %d\n",x-y);  }
 

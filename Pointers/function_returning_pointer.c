@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 int* fun1() {
-    static int a = 10;         // without static --> a is local, it will die within function itself.
-    return(&a);                 // with static --> the variable will be available through out the program.
+    static int a = 10;  // without static --> a is local, it will die within function itself.
+    return(&a);         // with static --> the variable will be available through out the program.
 }
 
 int main()  {

@@ -1,0 +1,18 @@
+intsall code-blocks(minGW with 64bit)
+install TDM-GCC 32
+
+Do the below in the TDM-GCC folder
+keep the winBGIm file
+Copy the files graphics.h and winbgim.h and paste in include folder
+Copy the file libbgi.a and paste in lib folder
+
+Link libraries --> C:\TDM-GCC-32\lib\libbgi.a
+Other linker options --> 
+-lbgi
+-lgdi32
+-lcomdlg32
+-luuid
+-loleaut32
+-lole32
+
+C++ project
