@@ -13,13 +13,15 @@ int main()
     FILE *ptr2;
     char ch;
     ptr2 = fopen("test.txt","r");
-    if (ptr2==NULL) {   printf("Error in open the file"); exit(1);    }
+    if (ptr2==NULL)          {   printf("Error in open the file"); exit(1);    }
     printf("Reading from the file\n");
-    while(1) {
+
+    while(1)     {
         ch = fgetc(ptr2);
         if (ch==EOF) {  break; }
         else {  printf("%c",ch);        }
     }
+
     fclose(ptr2);
     return 0;
 }
